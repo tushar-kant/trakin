@@ -1,0 +1,25 @@
+.logo {
+    line-height: 1;
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        width: 280px
+    }
+
+}
+
+.logo img {
+    margin-left: 50px;
+    max-height: 45px;
+    width: 140px;
+    margin-right: 4px;
+}
+
+.logo span {
+    font-size: 26px;
+    font-weight: 700;
+    color: #012970;
+    
+    font-family: 'Courier New', Courier, monospace;
+}

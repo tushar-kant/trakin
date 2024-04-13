@@ -1,0 +1,50 @@
+.input_container2 {
+    width: calc(50% - 10px); /* Adjust as needed */
+    height: fit-content;
+    position: relative;
+    display: inline-flex; /* Use inline-flex to align items in a row */
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+
+  .input_container1 {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .input_container2:nth-child(even) {
+    margin-right: 0; /* Remove right margin for even-numbered input containers */
+  }
+  
+  .form_container {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px 40px 20px 40px;
+    background-color: #ffffff;
+    box-shadow: 0px 106px 42px rgba(0, 0, 0, 0.01),
+      0px 59px 36px rgba(0, 0, 0, 0.05), 0px 26px 26px rgba(0, 0, 0, 0.09),
+      0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+    font-family: "Inter", sans-serif;
+    margin-top: 30px;
+  }
+  
+  .containers {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  }
+  
