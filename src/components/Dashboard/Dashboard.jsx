@@ -55,8 +55,8 @@ function Dashboard() {
                 options={options}
                 value={selectedOptions}
                 onChange={handleChange}
-              />            
-                <button className='btn btn-sm btn-primary col-3 m-3'>save</button>
+              />
+              <button className='btn btn-sm btn-primary col-3 m-3'>save</button>
             </div>
 
           </div>
@@ -68,9 +68,11 @@ function Dashboard() {
                 <p className='text-primary p-2'>Quick overview</p>
               </div>
               <div className="col-5 mt-3 ">
-                <button type="button" class="btn btn-sm " disabled data-bs-toggle="button">20:1:2020-20:1:2020</button>
-
-                <button type="button" class="btn btn-primary btn-sm ">Generate report</button></div>
+                <div className="row">
+                  <input type="date" name="" id="" className='col-lg-5 col-sm-10 mx-1' />
+                  <button type="button" className="btn btn-primary btn-sm col-lg-5 col-sm-10">Generate report</button>
+                </div>
+              </div>
             </div><hr />
             <div className="row">
               <div className="col-4 text-center p-2"><h6 className='text-secondary'>Click</h6><h4>56576</h4></div>

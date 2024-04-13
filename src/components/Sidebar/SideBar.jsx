@@ -77,7 +77,7 @@ function SideBar() {
                     <a href="#" className='nav-link collapsed'
                         data-bs-target="#offers-nav"
                         data-bs-toggle='collapse'>
-                        <i className='bi bi-person'></i>
+                        <i className='bi bi-archive'></i>
                         <span>Offers</span>
                         <i className='bi bi-chevron-down ms-auto'></i>
                     </a>
@@ -127,7 +127,7 @@ function SideBar() {
                     <a href="#" className='nav-link collapsed'
                         data-bs-target="#affiliates-nav"
                         data-bs-toggle='collapse'>
-                        <i className='bi bi-person'></i>
+                        <i className='bi bi-award'></i>
                         <span>Affiliates</span>
                         <i className='bi bi-chevron-down ms-auto'></i>
                     </a>
@@ -178,7 +178,7 @@ function SideBar() {
                     <a href="#" className='nav-link collapsed'
                         data-bs-target="#advs-nav"
                         data-bs-toggle='collapse'>
-                        <i className='bi bi-person'></i>
+                        <i className='bi bi-backpack4'></i>
                         <span>Advertiser</span>
                         <i className='bi bi-chevron-down ms-auto'></i>
                     </a>
@@ -209,7 +209,7 @@ function SideBar() {
                     <a href="#" className='nav-link collapsed'
                         data-bs-target="#emps-nav"
                         data-bs-toggle='collapse'>
-                        <i className='bi bi-person'></i>
+                        <i className='bi bi-binoculars'></i>
                         <span>Employees</span>
                         <i className='bi bi-chevron-down ms-auto'></i>
                     </a>
@@ -251,7 +251,7 @@ function SideBar() {
                     <a href="#" className='nav-link collapsed'
                         data-bs-target="#preferences-nav"
                         data-bs-toggle='collapse'>
-                        <i className='bi bi-person'></i>
+                        <i className='bi bi-cookie'></i>
                         <span>Preference</span>
                         <i className='bi bi-chevron-down ms-auto'></i>
                     </a>

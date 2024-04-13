@@ -48,12 +48,20 @@ function Performancerange() {
       </div>
       <div className="container btncont mt-2">
         <div className="row">
-          <div className="col-lg-9 col-md-9 col-sm-4">
-            <button type="button" class="btn" disabled data-bs-toggle="button">20:1:2020-20:1:2020</button>
-            <button type="button" class="btn btn-info btn-sm m-3 p-2 text-white ">generate report</button>
+          <div className="col-lg-3 col-md-3 col-sm-3 ">
+            <div className="row">
+              <input type="date" name="" id="" className='col-lg-3 col-sm-10 m-1 form-control' />
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-3 col-sm-3 m-2">
+            <div className="row">
+              <button type="button" className="btn btn-primary btn-sm">Generate report</button>
+            </div>
+          </div>
+          <div className="col-lg-2  col-md-2 col-sm-3">
           </div>
           <div className="col-lg-3  col-md-3 col-sm-4">
-            <button type="button" class="btn btn-primary btn-sm m-3 p-2">Download a csv</button>
+            <button type="button" class="btn btn-primary btn-sm m-2 p-2">Download a csv</button>
           </div>
         </div>
       </div>
