@@ -87,7 +87,7 @@
    align-items: center;
    font-size: 15px;
    font-weight: 600;
-   color: #4154f1;
+   color: #11499D;
    transition: 0.3s;
    background: #f6f9ff;
    padding: 10px 15px;
@@ -96,11 +96,11 @@
 .sidebar-nav .nav-link i {
    font-size: 16px;
    margin-right: 10px;
-  color: #4154f1;
+  color: #11499D;
 }
 .sidebar-nav .nav-link.collapsed {
    background: #f6f9ff;
-   color: #012970;
+   color: #11499D;
 }
 .sidebar-nav .nav-link.collapsed i {
    color: #899bbd;
@@ -132,7 +132,7 @@
 
     font-size: 14px;
     font-weight: 600;
-    color: #012970;
+    color: #11499D;
     transition: 0.3;
     padding: 10px 0 10px 40px;
     transition: 0.3s;
@@ -147,11 +147,11 @@
 
 .sidebar-nav .nav-content a:hover .sidebar-nav .nav-content a:active {
 
-    color: #4154f1;
+    color: #11499D;
 }
 
 .sidebar-nav .nav-content a.active i {
 
-    background-color: #4154f1;
+    background-color: #11499D;
 
 }

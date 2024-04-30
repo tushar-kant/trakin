@@ -210,7 +210,7 @@ function CampaignReport() {
                             <tr>
                                 <th scope="col">Offer ID</th>
                                 <th scope="col">Affiliate ID</th>
-                                <th scope="col">Offer ID</th>
+                                <th scope="col">Affiliate</th>
                                 <th scope="col">Offer</th>
                                 <th scope="col">Clicks</th>
                                 <th scope="col">Conversions</th>
@@ -220,6 +220,73 @@ function CampaignReport() {
                                 <th scope="col">Goals</th>
                             </tr>
                         </thead>
+                        <tbody>
+            <tr>
+              <td>18</td>
+              <td>Abhijeet</td>
+              <td>196</td>
+              <td>My11circle CPA</td>
+              <td>	default</td>
+              <td>42.110.202.250</td>
+              <td>35.240.15.55</td>
+              <td>d148f4d868894a1a500f7217566483</td>
+              <td>INR</td>
+              <td>0.00</td>
+         
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>Abhijeet</td>
+              <td>196</td>
+              <td>My11circle CPA</td>
+              <td>	default</td>
+              <td>42.110.202.250</td>
+              <td>35.240.15.55</td>
+              <td>d148f4d868894a1a500f7217566483</td>
+              <td>INR</td>
+              <td>0.00</td>
+         
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>Abhijeet</td>
+              <td>196</td>
+              <td>My11circle CPA</td>
+              <td>	default</td>
+              <td>42.110.202.250</td>
+              <td>35.240.15.55</td>
+              <td>d148f4d868894a1a500f7217566483</td>
+              <td>INR</td>
+              <td>0.00</td>
+
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>Abhijeet</td>
+              <td>196</td>
+              <td>My11circle CPA</td>
+              <td>	default</td>
+              <td>42.110.202.250</td>
+              <td>35.240.15.55</td>
+              <td>d148f4d868894a1a500f7217566483</td>
+              <td>INR</td>
+              <td>0.00</td>
+             
+            </tr>
+            <tr>
+              <td>18</td>
+              <td>Abhijeet</td>
+              <td>196</td>
+              <td>My11circle CPA</td>
+              <td>	default</td>
+              <td>42.110.202.250</td>
+              <td>35.240.15.55</td>
+              <td>d148f4d868894a1a500f7217566483</td>
+              <td>INR</td>
+              <td>0.00</td>
+             
+            </tr>
+          </tbody>
                     </table>
                 </div>
             </>
