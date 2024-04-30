@@ -66,7 +66,7 @@ function Performancerange() {
         </div>
       </div>
       <div className="tableoverflow">
-        <table class="table table-dark mt-3 ">
+        <table class="table mt-3 ">
           <thead>
             <tr>
               <th scope="col">Affiliate ID</th>

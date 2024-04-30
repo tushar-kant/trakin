@@ -19,7 +19,7 @@ function Clicklog() {
         <p className="text-primary pt-1">filter</p><hr />
         <div className="row">
           <div className="col-md-4 col-sm-10 col-lg-4">affiliate
-          <Select
+            <Select
               isMulti
               options={options}
               value={selectedOptions}
@@ -27,25 +27,25 @@ function Clicklog() {
             />
           </div>
           <div className="col-md-4 col-sm-10 col-lg-4">offer
-          <Select
+            <Select
               isMulti
               options={options}
               value={selectedOptions}
               onChange={handleChange}
             />
-            </div>
+          </div>
           <div className="col-md-3 col-sm-10 col-lg-3">offergoal
-          <input class="form-select" type='text' placeholder='Ex-6876hj68bj87jj'/>
-         
-            </div>
+            <input class="form-select" type='text' placeholder='Ex-6876hj68bj87jj' />
+
+          </div>
 
         </div>
         <button type="button" class="btn btn-primary btn-sm m-3 p-2">Search</button>
 
       </div>
       <div className="tableoverflow">
-        <table class="table table mt-3 table-striped">
-          <thead className='table-dark'>
+        <table class="table mt-3">
+          <thead className='table'>
             <tr>
               <th scope="col">Id</th>
               <th scope="col">Affiliate</th>
@@ -53,8 +53,8 @@ function Clicklog() {
               <th scope="col">Advertiser</th>
               <th scope="col">Event</th>
               <th scope="col">Status</th>
-              <th scope="col">Conversion IP</th>
-              <th scope="col">Transaction ID</th>
+              <th scope="col">ConversionIP</th>
+              <th scope="col">TransactionID</th>
               <th scope="col">Revenue</th>
               <th scope="col">Payout</th>
               <th scope="col">Profit</th>
@@ -75,7 +75,7 @@ function Clicklog() {
               <td>approved	</td>
               <td>35.240.15.55</td>
               <td>d148f4d868894a1a500f7217566483</td>
-         
+
               <td>0.00</td>
               <td>0.00</td>
               <td>----</td>
@@ -90,7 +90,7 @@ function Clicklog() {
               <td>approved	</td>
               <td>35.240.15.55</td>
               <td>d148f4d868894a1a500f7217566483</td>
-         
+
               <td>0.00</td>
               <td>0.00</td>
               <td>----</td>

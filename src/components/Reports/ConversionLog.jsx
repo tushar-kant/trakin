@@ -26,7 +26,9 @@ function ConversionLog() {
               options={options}
               value={selectedOptions}
               onChange={handleChange}
-            />
+             
+              className="custom-select" // Add custom class for styling
+              />
           </div>
           <div className="col-md-4 col-sm-10 col-lg-4">offer
           <Select
@@ -49,8 +51,8 @@ function ConversionLog() {
         <button type="button" class="btn btn-primary btn-sm m-3 p-2">Search</button>
       </div>
       <div className="tableoverflow">
-        <table class="table table mt-3 table-striped">
-          <thead className='table-dark'>
+        <table class="table table mt-3">
+          <thead className='table'>
             <tr>
               <th scope="col">Id</th>
               <th scope="col">Affiliate</th>
@@ -58,8 +60,8 @@ function ConversionLog() {
               <th scope="col">Advertiser</th>
               <th scope="col">Event</th>
               <th scope="col">Status</th>
-              <th scope="col">Conversion IP</th>
-              <th scope="col">Transaction ID</th>
+              <th scope="col">ConversionIP</th>
+              <th scope="col">TransactionID</th>
               <th scope="col">Revenue</th>
               <th scope="col">Payout</th>
               <th scope="col">Profit</th>
