@@ -9,7 +9,7 @@ function Advertisersign() {
       <div className="containers">
 
         <form className="form_container">
-        <img src={profileimg} alt="" className="logo1"  />
+          <img src={profileimg} alt="" className="logo1" />
 
           <div className="title_container">
             <p className="title">Create an Advertiser Account</p>
@@ -67,16 +67,16 @@ function Advertisersign() {
             </div>
           </div>
           <div className="input_container1">
-              <label className="input_label" htmlFor="email">
-                 Email
-              </label>
-              <input
-                placeholder="Email"
-                type="email"
-                className="input_field"
-                id="email"
-              />
-            </div>
+            <label className="input_label" htmlFor="email">
+              Email
+            </label>
+            <input
+              placeholder="Email"
+              type="email"
+              className="input_field"
+              id="email"
+            />
+          </div>
           <div className="row">
             <div className="input_container2 col-6">
               <label className="input_label" htmlFor="password">
@@ -139,7 +139,7 @@ function Advertisersign() {
             </div>
             <div className="input_container2 col-6">
               <label className="input_label" htmlFor="country">
-                country 
+                country
               </label>
               <input
                 placeholder="country"

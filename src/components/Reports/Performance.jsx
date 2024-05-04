@@ -22,7 +22,7 @@ function Performance() {
           id="controlled-tabs"
           activeKey={key}
           onSelect={(k) => setKey(k)}
-          className="custom-tabs "
+          className="custom-tabs"
         >
           <Tab eventKey="tab1" title="Campaign Report">
             <CampaignReport />

@@ -89,7 +89,7 @@
    font-weight: 600;
    color: #11499D;
    transition: 0.3s;
-   background: #f6f9ff;
+   background: white;
    padding: 10px 15px;
    border-radius: 4px;
 }
@@ -99,7 +99,7 @@
   color: #11499D;
 }
 .sidebar-nav .nav-link.collapsed {
-   background: #f6f9ff;
+   background: white;
    color: #11499D;
 }
 .sidebar-nav .nav-link.collapsed i {

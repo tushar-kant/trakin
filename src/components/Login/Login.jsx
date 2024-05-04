@@ -85,14 +85,14 @@ function Login() {
                         />
                     </div>
                     <div className="row">
-                        <div className="input_container2 col-6">
+                        <div className=" col-6">
                             <label className="input_label" htmlFor="name_field">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
                                 Remember me
                             </label>
 
                         </div>
-                        <div className="input_container2 col-6">
+                        <div className=" col-6">
                             <label className="input_label" htmlFor="company_field">
                                 ForgotPassword?
                             </label>

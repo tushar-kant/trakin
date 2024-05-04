@@ -7,7 +7,7 @@ function SideBar() {
         <aside id='sidebar' className='sidebar'>
             <ul className="sidebar-nav" id='sidebar-nav'>
                 <li className='nav-item'>
-                    <Link to="/home/dashboard" className='nav-link'>
+                    <Link to="/home/dashboard" className='nav-link p-0'>
                         <a href="/" className='nav-link'>
                             <i className='bi bi-grid'></i>
                             <span>Dashboard</span>
@@ -239,7 +239,7 @@ function SideBar() {
                     </ul>
                 </li>
                 <li className='nav-item'>
-                    <Link to="/home/mail" className='nav-link'>
+                    <Link to="/home/mail" className='nav-link p-0'>
 
                         <a href="/" className='nav-link'>
                             <i className='bi bi-gear'></i>
@@ -299,7 +299,7 @@ function SideBar() {
                     </ul>
                 </li>
                 <li className='nav-item'>
-                    <Link to="/" className='nav-link'>
+                    <Link to="/" className='nav-link p-0'>
 
                         <a href="/" className='nav-link'>
                             <i className='bi bi-gear'></i>
