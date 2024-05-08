@@ -2,102 +2,102 @@ import React, { useState } from 'react';
 import Select from 'react-select';
 
 function ConversionReport() {
-    const options = [
-        { value: 'apple', label: 'Apple' },
-        { value: 'banana', label: 'Banana' },
-        { value: 'orange', label: 'Orange' },
-        { value: 'grape', label: 'Grape' },
-    ];
-    const [selectedOptions, setSelectedOptions] = useState([]);
+  const options = [
+    { value: 'apple', label: 'Apple' },
+    { value: 'banana', label: 'Banana' },
+    { value: 'orange', label: 'Orange' },
+    { value: 'grape', label: 'Grape' },
+  ];
+  const [selectedOptions, setSelectedOptions] = useState([]);
 
-    const handleChange = selectedOption => {
-        setSelectedOptions(selectedOption);
-    };
-    const customStyles = {
-        control: (provided) => ({
-          ...provided,
-          minHeight: '58px', // Adjust the minimum height as per your requirement
-        }),
-        menu: (provided) => ({
-          ...provided,
-          maxHeight: '200px', // Adjust the maximum height of the dropdown menu
-        }),
-        menuList: (provided) => ({
-          ...provided,
-          maxHeight: '200px', // Adjust the maximum height of the menu list
-        }),
-      };
-    return (
-        <>
-            <div className="container p-3">
-                <div className="row">
-                    <div className="col-md-4 col-sm-10 col-lg-4 text-secondary">Campaign
-                        <Select
-                            isMulti
-                            options={options}
-                            value={selectedOptions}
-                            onChange={handleChange}
-                            styles={customStyles} // Apply custom styles
+  const handleChange = selectedOption => {
+    setSelectedOptions(selectedOption);
+  };
+  const customStyles = {
+    control: (provided) => ({
+      ...provided,
+      minHeight: '58px', // Adjust the minimum height as per your requirement
+    }),
+    menu: (provided) => ({
+      ...provided,
+      maxHeight: '200px', // Adjust the maximum height of the dropdown menu
+    }),
+    menuList: (provided) => ({
+      ...provided,
+      maxHeight: '200px', // Adjust the maximum height of the menu list
+    }),
+  };
+  return (
+    <>
+      <div className="container p-3">
+        <div className="row">
+          <div className="col-md-4 col-sm-10 col-lg-4 text-secondary">Campaign
+            <Select
+              isMulti
+              options={options}
+              value={selectedOptions}
+              onChange={handleChange}
+              styles={customStyles} // Apply custom styles
 
-                        />
-                    </div>
-                    <div className="col-md-4 col-sm-10 col-lg-4 text-secondary">Affiliate
-                        <Select
-                            isMulti
-                            options={options}
-                            value={selectedOptions}
-                            onChange={handleChange}
-                            styles={customStyles} // Apply custom styles
+            />
+          </div>
+          <div className="col-md-4 col-sm-10 col-lg-4 text-secondary">Affiliate
+            <Select
+              isMulti
+              options={options}
+              value={selectedOptions}
+              onChange={handleChange}
+              styles={customStyles} // Apply custom styles
 
-                        />
-                    </div>
-                    <div className="col-md-4 col-sm-10 col-lg-4 text-secondary">Advertiser
-                        <Select
-                            isMulti
-                            options={options}
-                            value={selectedOptions}
-                            onChange={handleChange}
-                            styles={customStyles} // Apply custom styles
+            />
+          </div>
+          <div className="col-md-4 col-sm-10 col-lg-4 text-secondary">Advertiser
+            <Select
+              isMulti
+              options={options}
+              value={selectedOptions}
+              onChange={handleChange}
+              styles={customStyles} // Apply custom styles
 
-                        />
-                    </div>
-                </div>
-            </div>
-            <div className="container p-3">
-                <div className="row">
-                    <div className="col-md-4 col-sm-10 col-lg-4 text-secondary">Goal Name
-                        <Select
-                            isMulti
-                            options={options}
-                            value={selectedOptions}
-                            onChange={handleChange}
-                            styles={customStyles} // Apply custom styles
+            />
+          </div>
+        </div>
+      </div>
+      <div className="container p-3">
+        <div className="row">
+          <div className="col-md-4 col-sm-10 col-lg-4 text-secondary">Goal Name
+            <Select
+              isMulti
+              options={options}
+              value={selectedOptions}
+              onChange={handleChange}
+              styles={customStyles} // Apply custom styles
 
-                        />
-                    </div>
-                    <div className="col-md-4 col-sm-10 col-lg-4 text-secondary">Goal
-                        <Select
-                            isMulti
-                            options={options}
-                            value={selectedOptions}
-                            onChange={handleChange}
-                            styles={customStyles} // Apply custom styles
+            />
+          </div>
+          <div className="col-md-4 col-sm-10 col-lg-4 text-secondary">Goal
+            <Select
+              isMulti
+              options={options}
+              value={selectedOptions}
+              onChange={handleChange}
+              styles={customStyles} // Apply custom styles
 
-                        />
-                    </div>
-                    <div className="col-md-4 col-sm-10 col-lg-4 text-secondary">click Id
-                        <Select
-                            isMulti
-                            options={options}
-                            value={selectedOptions}
-                            onChange={handleChange}
-                            styles={customStyles} // Apply custom styles
+            />
+          </div>
+          <div className="col-md-4 col-sm-10 col-lg-4 text-secondary">click Id
+            <Select
+              isMulti
+              options={options}
+              value={selectedOptions}
+              onChange={handleChange}
+              styles={customStyles} // Apply custom styles
 
-                        />
-                    </div>
-                </div>
-            </div>
-            <div className="container bg-white mt-2 p-2">
+            />
+          </div>
+        </div>
+      </div>
+      <div className="container bg-white mt-2 p-2">
         <div class="row">
           <div class="col-md-6">
             <p class='text-start text-dark'>Report By</p>
@@ -271,93 +271,83 @@ function ConversionReport() {
         </div>
 
       </div>
-            <div className="tableoverflow">
-                <table class="table mt-3 ">
-                    <thead>
-                        <tr>
-                            <th scope="col">Offer ID</th>
-                            <th scope="col">Affiliate ID</th>
-                            <th scope="col">Offer ID</th>
-                            <th scope="col">Offer</th>
-                            <th scope="col">Clicks</th>
-                            <th scope="col">Conversions</th>
-                            <th scope="col">Payout</th>
-                            <th scope="col">Revenue</th>
-                            <th scope="col">Profit</th>
-                            <th scope="col">Goals</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>18</td>
-                            <td>Abhijeet</td>
-                            <td>196</td>
-                            <td>My11circle CPA</td>
-                            <td>	default</td>
-                            <td>42.110.202.250</td>
-                            <td>35.240.15.55</td>
-                            <td>d148f4d868894a1a500f7217566483</td>
-                            <td>INR</td>
-                            <td>0.00</td>
+      <div className="tableoverflow">
+        <table class="table mt-3 ">
+          <thead>
+            <tr>
+              <th scope="col">Offer ID</th>
+              <th scope="col">Affiliate ID</th>
+              <th scope="col">Affiliate</th>
+              <th scope="col">Click ID</th>
+              <th scope="col">Response</th>
+              <th scope="col">CODE device</th>
+              <th scope="col">payout</th>
+              <th scope="col">country</th>
+              <th scope="col">Approved conversion</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0001-kintree</td>
+              <td>68567</td>
+              <td>68768-mapp</td>
+              <td>1,233</td>
+              <td>122</td>
+              <td>1</td>
+              <td>123</td>
+              <td>india</td>
+              <td>244</td>
 
-                        </tr>
-                        <tr>
-                            <td>18</td>
-                            <td>Abhijeet</td>
-                            <td>196</td>
-                            <td>My11circle CPA</td>
-                            <td>	default</td>
-                            <td>42.110.202.250</td>
-                            <td>35.240.15.55</td>
-                            <td>d148f4d868894a1a500f7217566483</td>
-                            <td>INR</td>
-                            <td>0.00</td>
-
-                        </tr>
-                        <tr>
-                            <td>18</td>
-                            <td>Abhijeet</td>
-                            <td>196</td>
-                            <td>My11circle CPA</td>
-                            <td>	default</td>
-                            <td>42.110.202.250</td>
-                            <td>35.240.15.55</td>
-                            <td>d148f4d868894a1a500f7217566483</td>
-                            <td>INR</td>
-                            <td>0.00</td>
-
-                        </tr>
-                        <tr>
-                            <td>18</td>
-                            <td>Abhijeet</td>
-                            <td>196</td>
-                            <td>My11circle CPA</td>
-                            <td>	default</td>
-                            <td>42.110.202.250</td>
-                            <td>35.240.15.55</td>
-                            <td>d148f4d868894a1a500f7217566483</td>
-                            <td>INR</td>
-                            <td>0.00</td>
-
-                        </tr>
-                        <tr>
-                            <td>18</td>
-                            <td>Abhijeet</td>
-                            <td>196</td>
-                            <td>My11circle CPA</td>
-                            <td>	default</td>
-                            <td>42.110.202.250</td>
-                            <td>35.240.15.55</td>
-                            <td>d148f4d868894a1a500f7217566483</td>
-                            <td>INR</td>
-                            <td>0.00</td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </>
-    )
+            </tr>
+            <tr>
+              <td>0001-kintree</td>
+              <td>68567</td>
+              <td>68768-mapp</td>
+              <td>1,233</td>
+              <td>122</td>
+              <td>1</td>
+              <td>123</td>
+              <td>india</td>
+              <td>244</td>
+            </tr>
+            <tr>
+              <td>0001-kintree</td>
+              <td>68567</td>
+              <td>68768-mapp</td>
+              <td>1,233</td>
+              <td>122</td>
+              <td>1</td>
+              <td>123</td>
+              <td>india</td>
+              <td>244</td>
+            </tr>
+            <tr>
+              <td>0001-kintree</td>
+              <td>68567</td>
+              <td>68768-mapp</td>
+              <td>1,233</td>
+              <td>122</td>
+              <td>1</td>
+              <td>123</td>
+              <td>india</td>
+              <td>244</td>
+            </tr>
+            <tr>
+              <td>0001-kintree</td>
+              <td>68567</td>
+              <td>68768-mapp</td>
+              <td>1,233</td>
+              <td>122</td>
+              <td>1</td>
+              <td>123</td>
+              <td>india</td>
+              <td>244</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </>
+  )
 }
 
 export default ConversionReport

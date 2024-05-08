@@ -241,80 +241,67 @@ function PostbackReport() {
             <tr>
               <th scope="col">Offer ID</th>
               <th scope="col">Affiliate ID</th>
-              <th scope="col">Offer ID</th>
-              <th scope="col">Offer</th>
-              <th scope="col">Clicks</th>
-              <th scope="col">Conversions</th>
-              <th scope="col">Payout</th>
-              <th scope="col">Revenue</th>
-              <th scope="col">Profit</th>
-              <th scope="col">Goals</th>
+              <th scope="col">Affiliate</th>
+              <th scope="col">Click Time</th>
+              <th scope="col">Click Date</th>
+              <th scope="col">Postback url</th>
+              <th scope="col">PostbackIP</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>18</td>
-              <td>Abhijeet</td>
-              <td>196</td>
-              <td>My11circle CPA</td>
-              <td>	default</td>
-              <td>42.110.202.250</td>
-              <td>35.240.15.55</td>
-              <td>d148f4d868894a1a500f7217566483</td>
-              <td>INR</td>
-              <td>0.00</td>
+              <td>0001-kintree</td>
+              <td>65757</td>
+              <td>7878-mapp</td>
+              <td>12.20</td>
+              <td>	25  Apr 2024</td>
+              <td>www.google.com</td>
+          
+              <td>206.455.388</td>
 
             </tr>
             <tr>
-              <td>18</td>
-              <td>Abhijeet</td>
-              <td>196</td>
-              <td>My11circle CPA</td>
-              <td>	default</td>
-              <td>42.110.202.250</td>
-              <td>35.240.15.55</td>
-              <td>d148f4d868894a1a500f7217566483</td>
-              <td>INR</td>
-              <td>0.00</td>
+                <td>0001-kintree</td>
+              <td>65757</td>
+              <td>7878-mapp</td>
+              <td>12.20</td>
+              <td>	25  Apr 2024</td>
+              <td>www.google.com</td>
+          
+              <td>206.455.388</td>
 
             </tr>
             <tr>
-              <td>18</td>
-              <td>Abhijeet</td>
-              <td>196</td>
-              <td>My11circle CPA</td>
-              <td>	default</td>
-              <td>42.110.202.250</td>
-              <td>35.240.15.55</td>
-              <td>d148f4d868894a1a500f7217566483</td>
-              <td>INR</td>
-              <td>0.00</td>
+                <td>0001-kintree</td>
+              <td>65757</td>
+              <td>7878-mapp</td>
+              <td>12.20</td>
+              <td>	25  Apr 2024</td>
+              <td>www.google.com</td>
+          
+              <td>206.455.388</td>
 
             </tr>
             <tr>
-              <td>18</td>
-              <td>Abhijeet</td>
-              <td>196</td>
-              <td>My11circle CPA</td>
-              <td>	default</td>
-              <td>42.110.202.250</td>
-              <td>35.240.15.55</td>
-              <td>d148f4d868894a1a500f7217566483</td>
-              <td>INR</td>
-              <td>0.00</td>
+                <td>0001-kintree</td>
+              <td>65757</td>
+              <td>7878-mapp</td>
+              <td>12.20</td>
+              <td>	25  Apr 2024</td>
+              <td>www.google.com</td>
+          
+              <td>206.455.388</td>
 
             </tr>
             <tr>
-              <td>18</td>
-              <td>Abhijeet</td>
-              <td>196</td>
-              <td>My11circle CPA</td>
-              <td>	default</td>
-              <td>42.110.202.250</td>
-              <td>35.240.15.55</td>
-              <td>d148f4d868894a1a500f7217566483</td>
-              <td>INR</td>
-              <td>0.00</td>
+                <td>0001-kintree</td>
+              <td>65757</td>
+              <td>7878-mapp</td>
+              <td>12.20</td>
+              <td>	25  Apr 2024</td>
+              <td>www.google.com</td>
+          
+              <td>206.455.388</td>
 
             </tr>
           </tbody>

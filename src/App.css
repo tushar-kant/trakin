@@ -5,7 +5,6 @@
   --primary: #11499D;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -63,7 +62,6 @@ th {
   height: auto;
   background-color: white;
   border-left: 4px solid rgb(38, 37, 37);
-
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 2px;
 }
@@ -84,8 +82,6 @@ th {
   overflow-x: auto;
 }
 
-
-
 .custom-tabs {
   display: flex;
   justify-content: space-between;
@@ -96,7 +92,6 @@ th {
   margin: 10px;
   padding: 10px;
   border: none;
-
 }
 
 .custom-tabs .nav-link {
@@ -127,8 +122,6 @@ th {
   height: 2px;
   /* Thickness of the bottom bar */
   background-color: #0f5dfb;
-
-  
   margin-top: 10px;
   /* Color of the bottom bar */
 }

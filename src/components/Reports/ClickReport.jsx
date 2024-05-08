@@ -243,80 +243,70 @@ function ClickReport() {
                         <tr>
                             <th scope="col">Offer ID</th>
                             <th scope="col">Affiliate ID</th>
-                            <th scope="col">Offer ID</th>
-                            <th scope="col">Offer</th>
-                            <th scope="col">Clicks</th>
-                            <th scope="col">Conversions</th>
-                            <th scope="col">Payout</th>
-                            <th scope="col">Revenue</th>
-                            <th scope="col">Profit</th>
-                            <th scope="col">Goals</th>
+                            <th scope="col">Affiliate</th>
+                            <th scope="col">Advertiser</th>
+                            <th scope="col">User Agent</th>
+                            <th scope="col">OS name</th>
+                            <th scope="col">IP address</th>
+                            <th scope="col">Browser name</th>
+                          
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td>18</td>
-                            <td>Abhijeet</td>
-                            <td>196</td>
-                            <td>My11circle CPA</td>
-                            <td>	default</td>
-                            <td>42.110.202.250</td>
-                            <td>35.240.15.55</td>
-                            <td>d148f4d868894a1a500f7217566483</td>
-                            <td>INR</td>
-                            <td>0.00</td>
+                            <td>0001-kintree</td>
+                            <td>68567</td>
+                            <td>68768-mapp</td>
+                            <td>67678-mapp</td>
+                            <td>ariis mccoy</td>
+                            <td>122</td>
+                            <td>123</td>
+                            <td>google</td>
+                            
 
                         </tr>
                         <tr>
-                            <td>18</td>
-                            <td>Abhijeet</td>
-                            <td>196</td>
-                            <td>My11circle CPA</td>
-                            <td>	default</td>
-                            <td>42.110.202.250</td>
-                            <td>35.240.15.55</td>
-                            <td>d148f4d868894a1a500f7217566483</td>
-                            <td>INR</td>
-                            <td>0.00</td>
+                                <td>0001-kintree</td>
+                            <td>68567</td>
+                            <td>68768-mapp</td>
+                            <td>67678-mapp</td>
+                            <td>ariis mccoy</td>
+                            <td>122</td>
+                            <td>123</td>
+                            <td>google</td>
 
                         </tr>
                         <tr>
-                            <td>18</td>
-                            <td>Abhijeet</td>
-                            <td>196</td>
-                            <td>My11circle CPA</td>
-                            <td>	default</td>
-                            <td>42.110.202.250</td>
-                            <td>35.240.15.55</td>
-                            <td>d148f4d868894a1a500f7217566483</td>
-                            <td>INR</td>
-                            <td>0.00</td>
+                                <td>0001-kintree</td>
+                            <td>68567</td>
+                            <td>68768-mapp</td>
+                            <td>67678-mapp</td>
+                            <td>ariis mccoy</td>
+                            <td>122</td>
+                            <td>123</td>
+                            <td>google</td>
 
                         </tr>
                         <tr>
-                            <td>18</td>
-                            <td>Abhijeet</td>
-                            <td>196</td>
-                            <td>My11circle CPA</td>
-                            <td>	default</td>
-                            <td>42.110.202.250</td>
-                            <td>35.240.15.55</td>
-                            <td>d148f4d868894a1a500f7217566483</td>
-                            <td>INR</td>
-                            <td>0.00</td>
+                                <td>0001-kintree</td>
+                            <td>68567</td>
+                            <td>68768-mapp</td>
+                            <td>67678-mapp</td>
+                            <td>ariis mccoy</td>
+                            <td>122</td>
+                            <td>123</td>
+                            <td>google</td>
 
                         </tr>
                         <tr>
-                            <td>18</td>
-                            <td>Abhijeet</td>
-                            <td>196</td>
-                            <td>My11circle CPA</td>
-                            <td>	default</td>
-                            <td>42.110.202.250</td>
-                            <td>35.240.15.55</td>
-                            <td>d148f4d868894a1a500f7217566483</td>
-                            <td>INR</td>
-                            <td>0.00</td>
+                                <td>0001-kintree</td>
+                            <td>68567</td>
+                            <td>68768-mapp</td>
+                            <td>67678-mapp</td>
+                            <td>ariis mccoy</td>
+                            <td>122</td>
+                            <td>123</td>
+                            <td>google</td>
 
                         </tr>
                     </tbody>
