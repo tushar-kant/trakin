@@ -21,39 +21,42 @@ function CampaignReport() {
     ];
 
     const data = [
-        { "Campaign Name": "A", "Affiliate": "X", "Advertiser": "1", "Goal Name": "A", "Currency": 101, "payout": "10", "Revenue": "224", "Profit": "13", "Transaction ID": "1", "Session IP": "0.0.0", "Conversion IP": "1", "Device": "1", "Operating System": "windows", "Browser": "chrome", "sub ID 2": "1", "sub ID 3": "1", "sub ID 4": "1", "sub ID 5": "1", "sub ID 1": "1" },
-        { "Campaign Name": "A", "Affiliate": "Y", "Advertiser": "2", "Goal Name": "B", "Currency": 102, "payout": "20", "Revenue": "234", "Profit": "13", "Transaction ID": "2", "Session IP": "0.0.0", "Conversion IP": "1", "Device": "1", "Operating System": "windows", "Browser": "chrome", "sub ID 2": "1", "sub ID 3": "1", "sub ID 4": "1", "sub ID 5": "1", "sub ID 1": "1" },
-        { "Campaign Name": "A", "Affiliate": "Z", "Advertiser": "3", "Goal Name": "C", "Currency": 103, "payout": "15", "Revenue": "204", "Profit": "12", "Transaction ID": "3", "Session IP": "0.0.0", "Conversion IP": "1", "Device": "1", "Operating System": "windows", "Browser": "chrome", "sub ID 2": "1", "sub ID 3": "1", "sub ID 4": "1", "sub ID 5": "1", "sub ID 1": "1" },
-        { "Campaign Name": "D", "Affiliate": "X", "Advertiser": "3", "Goal Name": "D", "Currency": 104, "payout": "20", "Revenue": "240", "Profit": "11", "Transaction ID": "4", "Session IP": "0.0.0", "Conversion IP": "1", "Device": "1", "Operating System": "windows", "Browser": "chrome", "sub ID 2": "1", "sub ID 3": "1", "sub ID 4": "1", "sub ID 5": "1", "sub ID 1": "1" },
-        { "Campaign Name": "A", "Affiliate": "Y", "Advertiser": "2", "Goal Name": "A", "Currency": 105, "payout": "10", "Revenue": "224", "Profit": "16", "Transaction ID": "5", "Session IP": "0.0.0", "Conversion IP": "1", "Device": "1", "Operating System": "windows", "Browser": "chrome", "sub ID 2": "1", "sub ID 3": "1", "sub ID 4": "1", "sub ID 5": "1", "sub ID 1": "1" },
-        { "Campaign Name": "B", "Affiliate": "X", "Advertiser": "1", "Goal Name": "B", "Currency": 106, "payout": "05", "Revenue": "124", "Profit": "16", "Transaction ID": "6", "Session IP": "0.0.0", "Conversion IP": "1", "Device": "1", "Operating System": "windows", "Browser": "chrome", "sub ID 2": "1", "sub ID 3": "1", "sub ID 4": "1", "sub ID 5": "1", "sub ID 1": "1" },
-        { "Campaign Name": "C", "Affiliate": "Z", "Advertiser": "3", "Goal Name": "C", "Currency": 107, "payout": "25", "Revenue": "424", "Profit": "14", "Transaction ID": "7", "Session IP": "0.0.0", "Conversion IP": "1", "Device": "1", "Operating System": "windows", "Browser": "chrome", "sub ID 2": "1", "sub ID 3": "1", "sub ID 4": "1", "sub ID 5": "1", "sub ID 1": "1" },
-        { "Campaign Name": "D", "Affiliate": "Z", "Advertiser": "2", "Goal Name": "D", "Currency": 108, "payout": "15", "Revenue": "324", "Profit": "15", "Transaction ID": "8", "Session IP": "0.0.0", "Conversion IP": "1", "Device": "1", "Operating System": "windows", "Browser": "chrome", "sub ID 2": "1", "sub ID 3": "1", "sub ID 4": "1", "sub ID 5": "1", "sub ID 1": "1" },
-        { "Campaign Name": "A", "Affiliate": "Y", "Advertiser": "2", "Goal Name": "A", "Currency": 109, "payout": "10", "Revenue": "232", "Profit": "18", "Transaction ID": "9", "Session IP": "0.0.0", "Conversion IP": "1", "Device": "1", "Operating System": "windows", "Browser": "chrome", "sub ID 2": "1", "sub ID 3": "1", "sub ID 4": "1", "sub ID 5": "1", "sub ID 1": "1" },
-        { "Campaign Name": "B", "Affiliate": "Z", "Advertiser": "1", "Goal Name": "B", "Currency": 110, "payout": "20", "Revenue": "224", "Profit": "19", "Transaction ID": "10", "Session IP": "0.0.0", "Conversion IP": "1", "Device": "1", "Operating System": "windows", "Browser": "chrome", "sub ID 2": "1", "sub ID 3": "1", "sub ID 4": "1", "sub ID 5": "1", "sub ID 1": "1" },
-        { "Campaign Name": "C", "Affiliate": "X", "Advertiser": "3", "Goal Name": "C", "Currency": 111, "payout": "15", "Revenue": "224", "Profit": "20", "Transaction ID": "11", "Session IP": "0.0.0", "Conversion IP": "1", "Device": "1", "Operating System": "windows", "Browser": "chrome", "sub ID 2": "1", "sub ID 3": "1", "sub ID 4": "1", "sub ID 5": "1", "sub ID 1": "1" },
-        { "Campaign Name": "D", "Affiliate": "Y", "Advertiser": "1", "Goal Name": "D", "Currency": 112, "payout": "20", "Revenue": "224", "Profit": "21", "Transaction ID": "12", "Session IP": "0.0.0", "Conversion IP": "1", "Device": "1", "Operating System": "windows", "Browser": "chrome", "sub ID 2": "1", "sub ID 3": "1", "sub ID 4": "1", "sub ID 5": "1", "sub ID 1": "1" },
-
-
-
+        { "Campaign Name": "A", "Campaign ID": "1", "Affiliate": "X", "Affiliate ID": "1", "Advertiser": "1", "Advertiser ID": "1", "Date": "1", "Month": "1", "Year": "1", "Hour": "1", "Aff Sub 2": "1", "Aff Sub 3": "1", "Aff Sub 4": "1", "Aff Sub 5": "1", "Approved Conversion": "1", "Pending Conversion": "1", "Rejected Conversion": "1", "Gross Conversion": "1", "Unique Clicks": "1", "Gross Clicks": "1", "Revenue": "1", "Payout": "1", "Profit/Margin": "1", "Goal ID": "1", "Goal Name": "1", "Non Zero Conversion": "1", "CR": "1" },
+        { "Campaign Name": "B", "Campaign ID": "2", "Affiliate": "Y", "Affiliate ID": "2", "Advertiser": "2", "Advertiser ID": "2", "Date": "2", "Month": "2", "Year": "2", "Hour": "2", "Aff Sub 2": "2", "Aff Sub 3": "2", "Aff Sub 4": "2", "Aff Sub 5": "2", "Approved Conversion": "2", "Pending Conversion": "2", "Rejected Conversion": "2", "Gross Conversion": "2", "Unique Clicks": "2", "Gross Clicks": "2", "Revenue": "2", "Payout": "2", "Profit/Margin": "2", "Goal ID": "2", "Goal Name": "2", "Non Zero Conversion": "2", "CR": "2" },
+        { "Campaign Name": "C", "Campaign ID": "3", "Affiliate": "Z", "Affiliate ID": "3", "Advertiser": "3", "Advertiser ID": "3", "Date": "3", "Month": "3", "Year": "3", "Hour": "3", "Aff Sub 2": "3", "Aff Sub 3": "3", "Aff Sub 4": "3", "Aff Sub 5": "3", "Approved Conversion": "3", "Pending Conversion": "3", "Rejected Conversion": "3", "Gross Conversion": "3", "Unique Clicks": "3", "Gross Clicks": "3", "Revenue": "3", "Payout": "3", "Profit/Margin": "3", "Goal ID": "3", "Goal Name": "3", "Non Zero Conversion": "3", "CR": "3" },
+        { "Campaign Name": "D", "Campaign ID": "4", "Affiliate": "X", "Affiliate ID": "4", "Advertiser": "4", "Advertiser ID": "4", "Date": "4", "Month": "4", "Year": "4", "Hour": "4", "Aff Sub 2": "4", "Aff Sub 3": "4", "Aff Sub 4": "4", "Aff Sub 5": "4", "Approved Conversion": "4", "Pending Conversion": "4", "Rejected Conversion": "4", "Gross Conversion": "4", "Unique Clicks": "4", "Gross Clicks": "4", "Revenue": "4", "Payout": "4", "Profit/Margin": "4", "Goal ID": "4", "Goal Name": "4", "Non Zero Conversion": "4", "CR": "4" },
+        { "Campaign Name": "A", "Campaign ID": "5", "Affiliate": "Y", "Affiliate ID": "5", "Advertiser": "1", "Advertiser ID": "5", "Date": "5", "Month": "5", "Year": "5", "Hour": "5", "Aff Sub 2": "5", "Aff Sub 3": "5", "Aff Sub 4": "5", "Aff Sub 5": "5", "Approved Conversion": "5", "Pending Conversion": "5", "Rejected Conversion": "5", "Gross Conversion": "5", "Unique Clicks": "5", "Gross Clicks": "5", "Revenue": "5", "Payout": "5", "Profit/Margin": "5", "Goal ID": "5", "Goal Name": "5", "Non Zero Conversion": "5", "CR": "5" },
+     
     ];
     const optionsCheckBox = [
-        { value: 'Goal Name', label: 'Goal Name' },
-        { value: 'Currency', label: 'Currency' },
-        { value: 'payout', label: 'payout' },
+        { value: 'Campaign Name', label: 'Campaign Name' },
+        { value: 'Campaign ID', label: 'Campaign ID' },
+        { value: 'Affiliate', label: 'Affiliate' },
+        { value: 'Affiliate ID', label: 'Affiliate ID' },
+        { value: 'Advertiser', label: 'Advertiser' },
+        { value: 'Advertiser ID', label: 'Advertiser ID' },
+        { value: 'Date', label: 'Date'},
+        { value: 'Month', label: 'Month'},
+        { value: 'Year', label: 'Year'},
+        { value: 'Hour', label: 'Hour'},
+        { value: 'Aff Sub 2', label: 'Aff Sub 2' },
+        { value: 'Aff Sub 3', label: 'Aff Sub 3' },
+        { value: 'Aff Sub 4', label: 'Aff Sub 4' },
+        { value: 'Aff Sub 5', label: 'Aff Sub 5' },
+        { value: 'Approved Conversion', label: 'Approved Conversion' },
+        { value: 'Pending Conversion', label: 'Pending Conversion' },
+        { value: 'Rejected Conversion', label: 'Rejected Conversion' },
+        { value: 'Gross Conversion', label: 'Gross Conversion' },
+        { value: 'Unique Clicks', label: 'Unique Clicks' },
+        { value: 'Gross Clicks', label: 'Gross Clicks' },
         { value: 'Revenue', label: 'Revenue' },
-        { value: 'Profit', label: 'Profit' },
-        { value: 'Transaction ID', label: 'Transaction ID' },
-        { value: 'Session IP', label: 'Session IP' },
-        { value: 'Conversion IP', label: 'Conversion IP' },
-        { value: 'Device', label: 'Device' },
-        { value: 'Operating System', label: 'Operating System' },
-        { value: 'Browser', label: 'Browser' },
-        { value: 'sub ID 2', label: 'sub ID 2' },
-        { value: 'sub ID 3', label: 'sub ID 3' },
-        { value: 'sub ID 4', label: 'sub ID 4' },
-        { value: 'sub ID 5', label: 'sub ID 5' },
-        { value: 'sub ID 1', label: 'sub ID 1' },
+        { value: 'Payout', label: 'Payout' },
+        { value: 'Profit/Margin', label: 'Profit/Margin' },
+        { value: 'Goal ID', label: 'Goal ID' },
+        { value: 'Goal Name', label: 'Goal Name' },
+        { value: 'Non Zero Conversion', label: 'Non Zero Conversion' },
+        { value: 'CR', label: 'CR' },
+       
 
     ];
     const [selectedOptions, setSelectedOptions] = useState([]);
